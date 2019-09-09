@@ -1,0 +1,25 @@
+{% extends 'shop/basic.html' %}
+
+{% block title%} {{product.product_name}} - AAC{% endblock %}
+{% block body %}
+
+<div class="container">
+	<div class="row">
+    	<div class="col-md-4">
+			IMAGE HERE
+			</div>
+			
+		<div class="border-top pt-3" >
+			    <h5>
+			        {{product.product_name}}
+			    </h5>
+			    <p>
+			        {{product.desc}}
+			    </p>
+		</div>
+		</div>
+</div>
+
+
+
+{% endblock %}
